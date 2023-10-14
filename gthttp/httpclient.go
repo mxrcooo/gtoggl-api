@@ -17,8 +17,8 @@ const (
 	DefaultAuthPassword       = "api_token"
 	DefaultMaxRetries         = 5
 	DefaultGzipEnabled        = false
-	DefaultUrl                = "https://www.toggl.com/api/v8"
-	DefaultVersion            = "v8"
+	DefaultUrl                = "https://www.toggl.com/api/v9"
+	DefaultVersion            = "v9"
 	SessionCookieName         = "__Host-timer-session"
 	defaultBucket             = "toggl"
 	DefaultRateLimitPerSecond = 3
