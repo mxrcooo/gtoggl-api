@@ -170,7 +170,7 @@ func (l *nullLogger) Printf(format string, v ...interface{}) {
 var defaultLogger = &nullLogger{}
 
 func (c *TogglHttpClient) authenticate(key string) ([]byte, error) {
-	req, err := http.NewRequest("POST", fmt.Sprintf("%s/%s", c.Url, "sessions"), nil)
+	req, err := http.NewRequest("POST", fmt.Sprintf("%s/%s", c.Url, "me/sessions"), nil)
 	if err != nil {
 		return nil, err
 	}
