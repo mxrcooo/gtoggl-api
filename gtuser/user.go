@@ -2,10 +2,10 @@ package gtuser
 
 import (
 	"encoding/json"
-	"github.com/dougEfresh/gtoggl-api/gtclient"
-	"github.com/dougEfresh/gtoggl-api/gthttp"
-	"github.com/dougEfresh/gtoggl-api/gtproject"
-	"github.com/dougEfresh/gtoggl-api/gtworkspace"
+	"github.com/mxrcooo/gtoggl-api/gtclient"
+	"github.com/mxrcooo/gtoggl-api/gthttp"
+	"github.com/mxrcooo/gtoggl-api/gtproject"
+	"github.com/mxrcooo/gtoggl-api/gtworkspace"
 )
 
 // Toggl User Definition
